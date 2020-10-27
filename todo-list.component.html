@@ -1,0 +1,16 @@
+<div *ngFor="let list of todoItems">
+  <ul>
+    <li>
+      <div class = "container">
+        <div class="row-12">
+          <div class="col-12">
+            {{list}}
+            <button type="button" class="btn-outline-danger" style= "color: red" >
+              {{'Delete'}}
+            </button>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
